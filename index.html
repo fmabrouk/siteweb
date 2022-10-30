@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mon site Web</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>F</span>ayez <span>M</span>ABROUK</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Certifications</a></li>
+            <li><a href="#projects" data-after="Projects">Projets</a></li>
+            <li><a href="#about" data-after="About">A propos de</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Bienvenue, <span></span></h1>
+        <h1>sur mon <span></span></h1>
+        <h1>portefolio <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portefolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Certi<span>fi</span>cations</h1>
+        <p></p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Développeur Full-stack</h2>
+          <p></p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Réseaux</h2>
+          <p></p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Cybersécurité</h2>
+          <p></p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Système d'informations</h2>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Projets <span>récents</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projet 1</h1>
+            <h2><u><span style="color: white;">Moteur de résolution de débat</span></u></h2>
+            <p>Les débats sont omniprésents à l’heure des réseaux sociaux, que ce soit
+              au sujet des programmes des candidats aux élections, des forces et
+              faiblesses des derniers blockbusters hollywoodiens, ou à peu près
+              n’importe quel sujet imaginable. Dans la vie de tous les jours, on débat
+              pour faire des choix même sur des choses simples (Où manger ce soir ?
+              Quel film aller voir au cinéma ?). Le but du projet est de proposer une
+              modélisation de débats simples, et une méthode de résolution de tels
+              débats.
+              <br>En cours de réalisation ...
+              <br>Fait en groupe de 3
+              <br>(Langage de programmation : java)</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/debat.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projet 2</h1>
+            <h2><a href="https://github.com/fmabrouk/PROJET_BDDA_Mabrouk_Saidlhadj_Zhang_Pan"><u><span style="color: white;">Système de gestion de base de données</span></u></a></h2>
+            <p>Notre projet concernera l’implémentation d’un « MiniSGBDR »,
+              autrement dit un SGBDR (Système de Gestion de Bases de Données Relationnelles) très simplifié.
+              Notre SGBD comprendra une seule base de données et un seul utilisateur ! Pas de gestion de la
+              concurrence, pas de transactions, pas de droits d’accès, pas de crash recovery…
+              Les commandes que notre SGBD devra traiter seront dans un langage plus simple que SQL, tout en
+              correspondant à des « vraies commandes SQL » : insertion, sélection, etc. Il y aura de plus des
+              commandes de type <br> « debug », pour avoir des informations supplémentaires sur les données.
+              <br>En cours de réalisation ...
+              <br>Fait en groupe de 4
+              <br>(Langage de programmation : java)</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/bdd.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projet 3</h1>
+            <h2> <a href="https://github.com/fmabrouk/Correction-orthographique"><u><span style="color: white;">Correction orthographique</span></u></a></h2>
+            <p>Le but de ce début projet est de stocker un dictionnaire contenant des mots, dans un arbre ternaire de recherche (ATR).
+              Puis il faut parcourir les mots d’un texte à corriger afin de vérifier si tous les mots 
+              sont bien orthographiés.Si ce n’est pas le cas, nous les mémorisions pour pouvoir agir 
+              sur celles-ci et de proposer des corrections en parcourant un arbre-BK de recherche.
+              
+              <br>Fait en groupe de 2
+              <br>(Langage de programmation : C)</p>
+            
+          </div>
+          <div class="project-img">
+            <img src="./img/correction.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projet 4</h1>
+            <h2><a href = "https://github.com/fmabrouk/Snake"><u><span style="color: white;">Snake</span></u></a></h2>
+            <p>Le Snake fait partie de la génération des tous premiers jeux vidéo créés dans les années 1970 et il
+              existerait aujourd'hui des centaines de clones de cette version. Le principe est simple, le joueur
+              contrôle ligne verte qu'on considérera comme un serpent. Pour le faire grandir le joueur doit passer
+              sur des pommes qui allongera son corps. Le but est d'être le plus grand possible. Attention à ne pas
+              rentrer dans un obstacle ou les bords de la fenêtre auquel cas vous mourez.
+              <br>Fait en groupe de 2
+              <br>
+              (Langage de programmation : python)</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/snake.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projet 5</h1>
+            <h2><u><span style="color: white;">Labyrinthe</span></u></h2>
+            <p>En cours de réalisation ...
+              <br>Fait en groupe de 2
+              <br>(Langage de programmation : java)</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/labyrinthe.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/IMG-20220412-WA0015.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">A propos de  <span>moi</span></h1>
+        <h2>Expert en cybersécurité</h2>
+        <p>Je m’appelle Fayez MABROUK, j’ai 21 ans, actuellement je suis étudiant en L3 informatique appliquée au sein de l’université Paris Cité (ex Paris Decartes). 
+          Durant mon cursus, j’ai élaboré plusieurs projets informatique , j’ai appris à maitriser des langages de programmation et des logiciels comme C,Java,Python,Javascript et Wireshark 
+          mais j’ai aussi effectué un job étudiant en tant qu'assistant de direction au sein de l'entreprise Bp.
+          <br>
+          Motivé à acquérir de nouvelles compétences , Avide d’apprendre et prêt à me retrouver face à de nouveaux défis, 
+          je souhaite approfondir mes connaissances et me spécialiser en cyber sécurité.</p>
+       <!-- <a href="#" class="cta">Download Resume</a>-->
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Téléphone</h1>
+            <h2>+33 7 82 50 48 65</h2>
+           
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>mabroukfayez1@gmail.com</h2>
+            <h2>fayez.mabrouk@outlook.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Addresse</h1>
+            <h2>Villejuif,France</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>F</span>ayez <span>M</span>ABROUK</h1>
+      </div>
+      <h2>ma solution complète pour le web</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/fayez-mabrouk/"><img src="./img/icons8-linkedin-50 (1).png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/fmabrouk"><img src="./img/github.png" /></a>
+        </div>
+       
+        
+      </div>
+      <p>Copyright © 2022 Fayez. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
